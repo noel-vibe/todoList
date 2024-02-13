@@ -1,0 +1,42 @@
+body {
+    margin:0;
+    background-image: url("image/sky.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(253, 253, 222);
+    color:cadetblue;
+    min-height: 100vh;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.task-area{
+    border: 1px solid lightgray;
+}
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.task-tabs div{
+    padding:  1em;
+}
+
+#under-line{
+    height: 4px;
+    background-color: antiquewhite;
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
