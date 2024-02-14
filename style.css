@@ -6,7 +6,7 @@ body {
 }
 
 .container{
-    background-color: rgb(253, 253, 222);
+    background-color: rgb(250, 250, 240);
     color:cadetblue;
     min-height: 100vh;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -14,11 +14,13 @@ body {
 
 .task-area{
     border: 1px solid lightgray;
+
 }
 .task-tabs{
     display: flex;
     border-bottom: 1px solid lightgray;
     position: relative;
+    
 }
 
 .task-tabs div{
@@ -29,7 +31,7 @@ body {
     height: 4px;
     background-color: antiquewhite;
     position: absolute;
-    width: 80px;
+    width: 73px;
     left: 0px;
     top: 52px;
     padding: 0px;
@@ -38,5 +40,46 @@ body {
 .task{
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    margin: o;
+    align-items: center;
+    padding:0em;
+    
 }
+
+.task-done{
+    text-decoration:line-through;
+    background-color: lightgray;
+    flex-grow: 1;
+    padding: 1em;
+    display: flex;
+}
+
+.task-check{
+    flex-grow: 1;
+    padding: 1em;
+    display: flex;
+}
+
+.button-box button {
+    height: 100%;
+    border: none;
+    width: 5em;
+    margin: 0;
+    background-color: rgb(250, 250, 240);
+    transition: 0.5s;
+  }
+
+.fi-rr-edit{
+    color: rgb(168, 162, 126);
+}
+
+.fi-br-rotate-right {
+    color: limegreen;
+  }
+  
+  .fi-rr-trash {
+    color: rgb(243, 168, 168);
+  }
+  .fi-rr-checkbox {
+    color: rgb(98, 124, 150);
+  }
