@@ -1,54 +1,68 @@
 body {
-    margin:0;
-    background-image: url("image/sky.avif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2d7ff;
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container{
-    background-color: rgb(250, 250, 240);
-    color:cadetblue;
-    min-height: 100vh;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(28, 28, 28);
+    min-height: 93vh;
+    margin: 2em 0;
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.input-box{
+    border: 1px solid lightgray;
+    margin-bottom: 13px;
+    padding-left: 5px;
 }
 
 .task-area{
     border: 1px solid lightgray;
-
+    position: relative;
+    margin-top:  1em;
 }
+
 .task-tabs{
     display: flex;
-    border-bottom: 1px solid lightgray;
-    position: relative;
+    border-bottom: 1px solid #d2d7ff;
     
 }
 
 .task-tabs div{
     padding:  1em;
+    cursor: pointer;
 }
 
 #under-line{
     height: 4px;
-    background-color: antiquewhite;
+    background-color: #3c4484;
     position: absolute;
     width: 73px;
     left: 0px;
     top: 52px;
     padding: 0px;
+    transition: 0.3s;
 }
 
 .task{
     display: flex;
     justify-content: space-between;
-    margin: o;
     align-items: center;
     padding:0em;
-    
+        margin: o;
 }
 
 .task-done{
     text-decoration:line-through;
-    background-color: lightgray;
+    background-color: #d2d7ff;
     flex-grow: 1;
     padding: 1em;
     display: flex;
@@ -60,26 +74,55 @@ body {
     display: flex;
 }
 
+.button-add {
+    border: none;
+    background-color: white;
+  }
+  .button-add:hover {
+    background-color: #d2d7ff;
+  }
+  .button-add:active {
+    background-color: #d2d7ff;
+    transform: translateY(0.125rem);
+  }
+  .button-box {
+    display: flex;
+    
+  }
+
 .button-box button {
     height: 100%;
     border: none;
     width: 5em;
     margin: 0;
-    background-color: rgb(250, 250, 240);
+    background-color: white;
     transition: 0.5s;
   }
 
-.fi-rr-edit{
-    color: rgb(168, 162, 126);
+  .button-box button :active {
+    position: relative;
+    top: 2px;
+  }
+  
+  .button-box button:first-child:hover {
+    background-color: #d2d7ff;
+  }
+  .button-box button:nth-child(2):hover {
+    background-color: #d2d7ff;
+  }
+
+.fi-rr-plus{
+    color: rgb(48, 48, 48);
+    padding: 1px, 1px;
 }
 
-.fi-br-rotate-right {
-    color: limegreen;
+.fi-rr-refresh {
+    color: rgb(98, 124, 150);
   }
   
   .fi-rr-trash {
     color: rgb(243, 168, 168);
   }
-  .fi-rr-checkbox {
+  .fi-rr-check {
     color: rgb(98, 124, 150);
   }
