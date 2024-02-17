@@ -1,128 +1,128 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d2d7ff;
-    
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2d7ff;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
-    background-color: white;
-    border-radius: 20px;
-    color: rgb(28, 28, 28);
-    min-height: 93vh;
-    margin: 2em 0;
-    padding: 2em;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  background-color: white;
+  border-radius: 20px;
+  color: rgb(28, 28, 28);
+  min-height: 93vh;
+  margin: 2em 0;
+  padding: 2em;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .input-box{
-    border: 1px solid lightgray;
-    margin-bottom: 13px;
-    padding-left: 5px;
+  border: 1px solid lightgray;
+  margin-bottom: 13px;
+  padding-left: 5px;
 }
 
 .task-area{
-    border: 1px solid lightgray;
-    position: relative;
-    margin-top:  1em;
+  border: 1px solid lightgray;
+  position: relative;
+  margin-top:  1em;
 }
 
 .task-tabs{
-    display: flex;
-    border-bottom: 1px solid #d2d7ff;
-    
+  display: flex;
+  border-bottom: 1px solid #d2d7ff;
+  
 }
 
 .task-tabs div{
-    padding:  1em;
-    cursor: pointer;
+  padding:  1em;
+  cursor: pointer;
 }
 
 #under-line{
-    height: 4px;
-    background-color: #3c4484;
-    position: absolute;
-    width: 73px;
-    left: 0px;
-    top: 52px;
-    padding: 0px;
-    transition: 0.3s;
+  height: 4px;
+  background-color: #3c4484;
+  position: absolute;
+  width: 73px;
+  left: 0px;
+  top: 52px;
+  padding: 0px;
+  transition: 0.3s;
 }
 
 .task{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:0em;
-        margin: o;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0em;
+      margin: o;
 }
 
 .task-done{
-    text-decoration:line-through;
-    background-color: #d2d7ff;
-    flex-grow: 1;
-    padding: 1em;
-    display: flex;
+  text-decoration:line-through;
+  background-color: #d2d7ff;
+  flex-grow: 1;
+  padding: 1em;
+  display: flex;
 }
 
 .task-check{
-    flex-grow: 1;
-    padding: 1em;
-    display: flex;
+  flex-grow: 1;
+  padding: 1em;
+  display: flex;
 }
 
 .button-add {
-    border: none;
-    background-color: white;
-  }
-  .button-add:hover {
-    background-color: #d2d7ff;
-  }
-  .button-add:active {
-    background-color: #d2d7ff;
-    transform: translateY(0.125rem);
-  }
-  .button-box {
-    display: flex;
-    
-  }
+  border: none;
+  background-color: white;
+}
+.button-add:hover {
+  background-color: #d2d7ff;
+}
+.button-add:active {
+  background-color: #d2d7ff;
+  transform: translateY(0.125rem);
+}
+.button-box {
+  display: flex;
+  
+}
 
 .button-box button {
-    height: 100%;
-    border: none;
-    width: 5em;
-    margin: 0;
-    background-color: white;
-    transition: 0.5s;
-  }
+  height: 100%;
+  border: none;
+  width: 5em;
+  margin: 0;
+  background-color: white;
+  transition: 0.5s;
+}
 
-  .button-box button :active {
-    position: relative;
-    top: 2px;
-  }
-  
-  .button-box button:first-child:hover {
-    background-color: #d2d7ff;
-  }
-  .button-box button:nth-child(2):hover {
-    background-color: #d2d7ff;
-  }
+.button-box button :active {
+  position: relative;
+  top: 2px;
+}
+
+.button-box button:first-child:hover {
+  background-color: #d2d7ff;
+}
+.button-box button:nth-child(2):hover {
+  background-color: #d2d7ff;
+}
 
 .fi-rr-plus{
-    color: rgb(48, 48, 48);
-    padding: 1px, 1px;
+  color: rgb(48, 48, 48);
+  padding: 1px, 1px;
 }
 
 .fi-rr-refresh {
-    color: rgb(98, 124, 150);
-  }
-  
-  .fi-rr-trash {
-    color: rgb(243, 168, 168);
-  }
-  .fi-rr-check {
-    color: rgb(98, 124, 150);
-  }
+  color: rgb(98, 124, 150);
+}
+
+.fi-rr-trash {
+  color: rgb(243, 168, 168);
+}
+.fi-rr-check {
+  color: rgb(98, 124, 150);
+}
